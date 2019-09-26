@@ -16,6 +16,9 @@ React Native Local and Remote Notifications for iOS and Android
 ## Changelog
 Changelog is available from version 3.1.1 here: [Changelog](https://github.com/zo0r/react-native-push-notification/blob/master/CHANGELOG.md)
 
+## Custom fixes in branch "notification-cb-fix"
+1. A second onNotification callback is fired when the notification is received into a closed app. - _Android_
+
 ## Installation
 `npm install --save react-native-push-notification` or `yarn add react-native-push-notification`
 
